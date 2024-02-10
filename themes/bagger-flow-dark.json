@@ -837,6 +837,7 @@
         "keyword.other.using",
         "keyword.other.directive.using",
         "keyword.other.operator",
+        // "keyword.operator.assignment.ruby",
         "entity.name.operator"
       ],
       "settings": {
@@ -951,6 +952,70 @@
         "foreground": "#B267E6"
       }
     },
+    // @@@ Ruby rules
+    {
+      "name": "Ruby Keyword and Ruby Operator",
+      "scope": [
+        "keyword.operator.assignment.ruby",
+        "keyword.control.ruby",
+        "keyword.operator.ruby",
+        "support.function.kernel.ruby"
+      ],
+      "settings": {
+        "foreground": "#A78BFA"
+      }
+    },
+    {
+      "name": "Class Inheritance Symbol Ruby",
+      "scope": ["punctuation.separator.inheritance.ruby"],
+      "settings": {
+        "foreground": "#f0f0f0"
+      }
+    },
+    {
+      "name": "Ruby Class",
+      "scope": ["support.class.ruby", "entity.name.type.class.ruby", "entity.other.inherited-class.ruby"],
+      "settings": {
+        "foreground": "#21c3a5"
+      }
+    },
+    {
+      "name": "Ruby Module",
+      "scope": ["entity.name.type.module.ruby", "variable.other.readwrite.instance.ruby"],
+      "settings": {
+        "foreground": "#ff8c62"
+      }
+    },
+    {
+      "name": "Ruby Symbol",
+      "scope": "constant.language.symbol.ruby",
+      "settings": {
+        "foreground": "#ff4488",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby Hashkey",
+      "scope": "constant.language.symbol.hashkey.ruby",
+      "settings": {
+        "foreground": "#ddeeee",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Ruby Function",
+      "scope": "entity.name.function.ruby",
+      "settings": {
+        "foreground": "#67E8F9"
+      }
+    },
+    {
+      "name": "Ruby Constant Declaration",
+      "scope": "variable.other.constant.ruby",
+      "settings": {
+        "foreground": "#4495ff"
+      }
+    },
     // @@@ JSON Rules
     {
       "name": "JSON Key",
@@ -962,6 +1027,21 @@
     {
       "name": "JSON Value",
       "scope": "support.constant.property-value.json",
+      "settings": {
+        "foreground": "#44DD99"
+      }
+    },
+    // @@@ YAML Rules
+    {
+      "name": "YAML Key",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#FF5588"
+      }
+    },
+    {
+      "name": "YAML Value",
+      "scope": "support.constant.property-value.yaml",
       "settings": {
         "foreground": "#44DD99"
       }
@@ -1060,6 +1140,108 @@
       "scope": ["keyword.other.unit"],
       "settings": {
         "foreground": "#A78BFA"
+      }
+    },
+    // @@@ Markdown Rules
+    {
+      "name": "Markdown Header",
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#fad160",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown List",
+      "scope": "markup.list",
+      "settings": {
+        // "foreground": "#99f3ff"
+      }
+    },
+    {
+      "name": "Markdown List Definition",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#FF4488"
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "#EEFFFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "#EEFFFF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Quote",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#79808D"
+      }
+    },
+    {
+      "name": "Markdown Link",
+      "scope": "markup.underline.link",
+      "settings": {
+        "foreground": "#60A5FA"
+      }
+    },
+    {
+      "name": "Markdown Link Description",
+      "scope": "string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#67E8F9"
+      }
+    },
+    {
+      "name": "Markdown Link Title",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#FF4488"
+      }
+    },
+    {
+      "name": "Markdown Code",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#FF4488"
+      }
+    },
+    {
+      "name": "Markdown Code Block",
+      "scope": "markup.fenced_code.block",
+      "settings": {
+        "foreground": "#FF4488"
+      }
+    },
+    {
+      "name": "Markdown Separator",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "#79808D"
+      }
+    },
+    {
+      "name": "Markdown Table",
+      "scope": "markup.table",
+      "settings": {
+        "foreground": "#79808D"
+      }
+    },
+    {
+      "name": "Markdown Table Header",
+      "scope": "markup.table.header",
+      "settings": {
+        "foreground": "#FF4488"
       }
     }
   ]
