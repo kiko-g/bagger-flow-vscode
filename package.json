@@ -1,8 +1,8 @@
 {
   "name": "bagger-flow",
   "displayName": "Bagger Flow Theme",
-  "description": "A dark theme for Visual Studio Code combining the best feature of many trendy themes",
-  "version": "0.0.0",
+  "description": "A dark theme for Visual Studio Code combining the best feature of many trendy themes with a careful and clean color scheme with more language support than most.",
+  "version": "0.0.1",
   "publisher": "kiko-g",
   "author": "Francisco Gonçalves",
   "repository": {
