@@ -1,12 +1,12 @@
-# Tailwind Colour Themes
+# Bagger Flow Themes
 
-A set of matching dark and light themes based on Tailwind CSS's default color scheme. These themes were based on Praveen Puglia's excellent "Tailwind Breeze" theme.
+A clean and minimal dark theme for Visual Studio Code.
 
 ## Changelog
 
 ### 1.0.0
 
-First release with combination of themes in the [inspiration](#inspiration) section.
+First release of the theme. General support for most languages and careful support for HTML, CSS, and JS/TS, JSX/TSX and Ruby.
 
 ## Installation
 
@@ -14,8 +14,11 @@ VS Code Marketplace:
 
 ## Screenshots
 
+### Bagger Flow Dark
+
+![Bagger Flow Dark](./screenshots/bagger-flow-dark_a.png)
+
 ## Inspiration
 
 - Tailwind Moon: https://github.com/luciascarlet/tailwind-moon-vscode/tree/main/themes
 - GitHub Dark Mode: https://github.com/markusylisiurunen/github-dark-mode/blob/main/themes/github-dark-mode.json
-- Spinel Ruby: https://github.com/Shopify/vscode-shopify-ruby/blob/main/themes/dark_spinel.json
