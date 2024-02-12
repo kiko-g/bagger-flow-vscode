@@ -4,7 +4,15 @@ A clean and minimal dark theme for Visual Studio Code.
 
 ## Changelog
 
-### 1.0.0
+### 0.0.3
+
+Slight semantic color changes.
+
+### 0.0.2
+
+Slightly lighter editor colors. Added some Liquid support.
+
+### 0.0.1
 
 First release of the theme. General support for most languages and careful support for HTML, CSS, and JS/TS, JSX/TSX and Ruby.
 
