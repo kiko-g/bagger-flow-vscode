@@ -829,7 +829,7 @@
         "variable.other.constant.ruby" // ruby uppercase constant
       ],
       "settings": {
-        "foreground": "#4495ff"
+        "foreground": "#bbffee"
       }
     },
     {
