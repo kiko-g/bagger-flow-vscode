@@ -1,16 +1,17 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
+  // primary color #1785a9
   "colors": {
     //"actionBar.toggledBackground": "#1785a919",
-    "activityBar.activeBackground": "#1785a910",
+    "activityBar.activeBackground": "#1785a920",
     "activityBar.activeBorder": "#1785a9",
     "activityBar.activeFocusBorder": "#1785a9",
     "activityBar.background": "#14171c",
     "activityBar.border": "#30363d55",
     "activityBar.dropBorder": "#30363d55",
-    "activityBar.foreground": "#c9d1d9",
-    "activityBar.inactiveForeground": "#484f58",
+    "activityBar.foreground": "#ffffff",
+    "activityBar.inactiveForeground": "#ffffff40",
     "activityBarBadge.background": "#1785a9",
     "activityBarBadge.foreground": "#f0f6fc",
     "badge.background": "#30363d",
@@ -124,20 +125,20 @@
     "dropdown.foreground": "#c9d1d9",
     "dropdown.listBackground": "#14171c",
     "editor.background": "#161b23",
-    "editor.findMatchBackground": "#153051",
-    "editor.findMatchBorder": "#79c0ff4c",
-    "editor.findMatchHighlightBackground": "#15305120",
-    "editor.findMatchHighlightBorder": "#79c0ff4c",
+    "editor.findMatchBackground": "#ff006f80", // find match current color
+    "editor.findMatchBorder": "#ff006f00", // find match current border
+    "editor.findMatchHighlightBackground": "#eaff0030", // find match other color
+    "editor.findMatchHighlightBorder": "#ffff0000", // find match other border
     "editor.findRangeHighlightBackground": "#1785a919",
-    "editor.foldBackground": "#1785a919",
+    "editor.foldBackground": "#ff006f20",
     "editor.foreground": "#cccccc",
     "editor.hoverHighlightBackground": "#15305120",
-    "editor.inactiveSelectionBackground": "#15305120",
+    "editor.inactiveSelectionBackground": "#88ffff10", // selected text unfocused
     "editor.lineHighlightBackground": "#1785a919",
     "editor.lineHighlightBorder": "#30363d55",
     "editor.rangeHighlightBackground": "#1785a919",
-    "editor.selectionBackground": "#153051",
-    "editor.selectionForeground": "#c9d1d9",
+    "editor.selectionBackground": "#1785a930", // selected text
+    "editor.selectionForeground": "#ffffff",
     "editor.selectionHighlightBackground": "#15305120",
     "editor.symbolHighlightBackground": "#15305120",
     "editor.symbolHighlightBorder": "#79c0ff4c",
@@ -172,12 +173,12 @@
     "editorGroup.border": "#30363d55",
     "editorGroup.dropBackground": "#00000066",
     //"editorGroup.dropIntoPromptBorder": null,
-    "editorGroup.emptyBackground": "#14171c",
+    "editorGroup.emptyBackground": "#242730", // no tabs open
     "editorGroup.focusedEmptyBorder": "#30363d55",
     "editorGroupHeader.border": "#30363d55",
     "editorGroupHeader.noTabsBackground": "#14171c",
     "editorGroupHeader.tabsBackground": "#14171c",
-    "editorGroupHeader.tabsBorder": "#30363d55",
+    "editorGroupHeader.tabsBorder": "#44668833", // tabs section bottom border
     "editorGutter.addedBackground": "#196c2e",
     "editorGutter.background": "#161b23",
     "editorGutter.deletedBackground": "#b62324",
@@ -392,7 +393,7 @@
     "list.hoverBackground": "#1785a919",
     "list.hoverForeground": "#c9d1d9",
     "list.inactiveFocusBackground": "#1785a919",
-    "list.inactiveSelectionBackground": "#1785a919",
+    "list.inactiveSelectionBackground": "#1785a940", // file selected
     "list.inactiveSelectionForeground": "#c9d1d9",
     "list.invalidItemForeground": "#ff7b72",
     //"list.inactiveFocusOutline": null,
@@ -561,16 +562,16 @@
     "sideBar.background": "#14171c", // 101318
     "sideBar.border": "#30363d55",
     "sideBar.dropBackground": "#00000033",
-    "sideBar.foreground": "#8b949e",
-    "sideBarSectionHeader.background": "#161b22",
-    //"sideBarSectionHeader.border": null,
-    "sideBarSectionHeader.foreground": "#8b949e",
+    "sideBar.foreground": "#ffffff70",
+    "sideBarSectionHeader.background": "#101318", // file tree section background
+    "sideBarSectionHeader.foreground": "#dddddd",
+    "sideBarSectionHeader.border": "#00000000",
     "sideBarTitle.foreground": "#c9d1d9",
     //"sideBySideEditor.horizontalBorder": "#30363d55",
     //"sideBySideEditor.verticalBorder": "#30363d55",
     //"simpleFindWidget.sashBorder": "#454545",
-    "statusBar.background": "#303946",
-    "statusBar.border": "#30363d55",
+    "statusBar.background": "#131b2a",
+    "statusBar.border": "#30363d00",
     "statusBar.debuggingBackground": "#1785a919",
     "statusBar.debuggingBorder": "#30363d55",
     "statusBar.debuggingForeground": "#c9d1d9",
@@ -637,15 +638,15 @@
     //"symbolIcon.typeParameterForeground": "#c9d1d9",
     //"symbolIcon.unitForeground": "#c9d1d9",
     //"symbolIcon.variableForeground": "#75beff",
-    "tab.activeBackground": "#161b22",
+    "tab.activeBackground": "#1785a920",
     "tab.activeBorder": "#1785a9",
-    "tab.activeBorderTop": "#00000000",
-    "tab.activeForeground": "#c9d1d9",
+    "tab.activeBorderTop": "#1785a900",
+    "tab.activeForeground": "#ffffff",
     "tab.activeModifiedBorder": "#00000000",
     "tab.border": "#00000000",
-    "tab.hoverBackground": "#1785a920",
-    "tab.hoverBorder": "#1785a9d0",
-    "tab.hoverForeground": "#c9d1d9",
+    "tab.hoverBackground": "#1785a930",
+    "tab.hoverBorder": "#1785a9",
+    "tab.hoverForeground": "#eeeeee",
     "tab.inactiveBackground": "#14171c",
     "tab.inactiveForeground": "#6e7681",
     "tab.inactiveModifiedBorder": "#00000000",
@@ -661,23 +662,23 @@
     //"tab.unfocusedInactiveBackground": "#14171c",
     //"tab.unfocusedInactiveForeground": "#6e768180",
     //"tab.unfocusedInactiveModifiedBorder": "#00000000",
-    "terminal.ansiBlack": "#6e7681",
-    "terminal.ansiBlue": "#58a6ff",
-    "terminal.ansiBrightBlack": "#6e7681",
-    "terminal.ansiBrightBlue": "#79c0ff",
-    "terminal.ansiBrightCyan": "#b3f0ff",
-    "terminal.ansiBrightGreen": "#56d364",
-    "terminal.ansiBrightMagenta": "#d2a8ff",
-    "terminal.ansiBrightRed": "#ffa198",
-    "terminal.ansiBrightWhite": "#b1bac4",
-    "terminal.ansiBrightYellow": "#e3b341",
-    "terminal.ansiCyan": "#76e3ea",
-    "terminal.ansiGreen": "#3fb950",
-    "terminal.ansiMagenta": "#bc8cff",
-    "terminal.ansiRed": "#ff7b72",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBrightBlack": "#434c5a",
+    "terminal.ansiBlue": "#3b82f6",
+    "terminal.ansiBrightBlue": "#60a5fa",
+    "terminal.ansiCyan": "#06b6d4",
+    "terminal.ansiBrightCyan": "#22d3ee",
+    "terminal.ansiRed": "#e11d48",
+    "terminal.ansiBrightRed": "#fb7185",
+    "terminal.ansiYellow": "#fbbf24",
+    "terminal.ansiBrightYellow": "#fcd34d",
+    "terminal.ansiGreen": "#34d399",
+    "terminal.ansiBrightGreen": "#6ee7b7",
+    "terminal.ansiMagenta": "#d946ef",
+    "terminal.ansiBrightMagenta": "#e879f9",
     "terminal.ansiWhite": "#b1bac4",
-    "terminal.ansiYellow": "#d29922",
-    "terminal.background": "#161b23",
+    "terminal.ansiBrightWhite": "#b1bac4",
+    "terminal.background": "#181d25",
     //"terminal.border": "#30363d55",
     //"terminal.dropBackground": "#00000066",
     //"terminal.findMatchBackground": "#153051",
@@ -745,54 +746,6 @@
     //"window.activeBorder": null,
     //"window.inactiveBorder": null
   },
-  "semanticTokenColors": {
-    // "method.declaration": {
-    //   "foreground": "#66EEFF"
-    // },
-    // "function.declaration": {
-    //   "foreground": "#66EEFF"
-    // },
-    // "function.declaration.async": {
-    //   "foreground": "#66EEFF"
-    // },
-    // "method": {
-    //   "foreground": "#d1ccf1",
-    // },
-    // "function": {
-    //   "foreground": "#d1ccf1",
-    // },
-    // "variable.default_library": {
-    //   "foreground": "#ed2a88",
-    // },
-    // "namespace": {
-    //   "foreground": "#4b82e9",
-    // },
-    // "class": {
-    //   "foreground": "#4b82e9",
-    // },
-    // "interface": {
-    //   "foreground": "#4b82e9"
-    // },
-    // "variable": {
-    //   "foreground": "#18b5e4",
-    // },
-    // "type": {
-    //   "foreground": "#dd5555",
-    //   "fontStyle": "bold"
-    // },
-    // "property": {
-    //   "foreground": "#eee0e0",
-    // },
-    // "property.declaration": {
-    //   "foreground": "#eee0e0",
-    // },
-    // "enumMember": {
-    //   "foreground": "#4b82e9",
-    // },
-    // "enum": {
-    //   "foreground": "#4b82e9",
-    // }
-  },
   "tokenColors": [
     {
       "name": "Variables",
@@ -801,7 +754,8 @@
         "meta.definition.variable.name",
         "support.variable",
         "entity.name.variable",
-        "constant.other.placeholder"
+        "constant.other.placeholder",
+        "punctuation.accessor" // access object property
       ],
       "settings": {
         "foreground": "#f0f0f0"
@@ -826,10 +780,12 @@
       "name": "Constant Variable",
       "scope": [
         "variable.other.constant",
-        "variable.other.constant.ruby" // ruby uppercase constant
+        "variable.other.constant.ruby", // ruby uppercase constant
+        "support.class.object.liquid" // liquid variable
       ],
       "settings": {
-        "foreground": "#bbffee"
+        "foreground": "#ffeeff", // a9ebff
+        "fontStyle": ""
       }
     },
     {
@@ -873,7 +829,7 @@
         "support.constant.property-value.json" // json value
       ],
       "settings": {
-        "foreground": "#44DD99"
+        "foreground": "#44ff99"
       }
     },
     {
@@ -889,7 +845,8 @@
         "keyword.control.ruby", // ruby control
         "support.function.kernel.ruby",
         "keyword.operator.assignment.ruby", // ruby operator assign
-        "keyword.operator.ruby"
+        "keyword.operator.ruby",
+        "keyword.operator.logical.and.media.css"
       ],
       "settings": {
         "foreground": "#BB88FF"
@@ -911,7 +868,8 @@
         "markup.underline.link" // markdown link
       ],
       "settings": {
-        "foreground": "#60A5FA"
+        "foreground": "#60A5FA",
+        "fontStyle": ""
       }
     },
     {
@@ -923,7 +881,6 @@
         "entity.other.attribute-name.class.css", // css class
         "entity.other.attribute-name.id.css", // css id
         "entity.other.keyframe-offset.css",
-        "keyword.operator.logical.and.media.css", // css media query
         "entity.name.function.ruby", // ruby function
         "support.constant.handlebars",
         "source.powershell variable.other.member",
@@ -931,11 +888,11 @@
         "string.other.link.description.markdown" // markdown link description
       ],
       "settings": {
-        "foreground": "#66EEFF"
+        "foreground": "#55ffff" // 00ffff
       }
     },
     {
-      "name": "Types, Properties and Keys",
+      "name": "Types, Properties, Keys and Values",
       "scope": [
         "entity.name.type",
         "entity.name.namespace",
@@ -946,8 +903,7 @@
         "support.type",
         "constant.language.symbol.ruby", // ruby symbol
         "variable.css", // css variable
-        "support.type.property-name.css", // css property
-        "support.type.property-name.media.css", // css media property (max-width)
+        "variable.argument.css", // css variable
         "entity.name.tag.yaml", // yaml key
         "support.type.property-name.json", // json key
         "markup.inline.raw", // markdown raw
@@ -957,12 +913,13 @@
         "markup.fenced_code.block" // markdown code
       ],
       "settings": {
-        "foreground": "#FF5588"
+        "foreground": "#ff5599"
       }
     },
     {
-      "name": "Values",
+      "name": "Symbols, Literals and CSS Values",
       "scope": [
+        "constant.language.symbol.hashkey.ruby", // ruby hashkey
         "support.constant.color.w3c-standard-color-name.css", // css value
         "support.constant.property-value.css",
         "support.constant.font-name.css",
@@ -971,9 +928,27 @@
         "constant.other.color.rgb-value.css",
         "constant.other.rgb-value.css",
         "support.constant.color.css",
-        "variable.argument.css",
-        "constant.language.symbol.hashkey.ruby", // ruby hashkey
-        "support.class.object.liquid", // liquid variable
+        "variable.parameter.keyframe-list.css"
+      ],
+      "settings": {
+        "foreground": "#ff5599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS Properties",
+      "scope": [
+        "support.type.property-name.css", // css property
+        "support.type.property-name.media.css" // css media property (max-width)
+      ],
+      "settings": {
+        "foreground": "#FFFFFF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Liquid Values",
+      "scope": [
         "support.class.object-value.liquid",
         "string.other.property-value.liquid",
         "punctuation.output.liquid",
@@ -981,8 +956,8 @@
         "constant.numeric.property-value.liquid"
       ],
       "settings": {
-        "foreground": "#ddffff",
-        "fontStyle": "bold"
+        "foreground": "#eeffff",
+        "fontStyle": ""
       }
     },
     {
@@ -995,7 +970,7 @@
         "entity.other.inherited-class.ruby"
       ],
       "settings": {
-        "foreground": "#18CAAF" // 21c3a5
+        "foreground": "#13dfac" // 21c3a5
       }
     },
     {
@@ -1071,14 +1046,16 @@
         "punctuation.definition.tag.end.liquid" // liquid output close
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#a2b8c9",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Liquid Entities",
+      "name": "Liquid Control",
       "scope": ["entity.name.tag.other.liquid", "entity.name.tag.method.liquid"],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#BB88FF",
+        "fontStyle": ""
       }
     }
   ]
