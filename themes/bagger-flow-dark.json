@@ -829,7 +829,7 @@
         "support.constant.property-value.json" // json value
       ],
       "settings": {
-        "foreground": "#44ff99"
+        "foreground": "#61e57e"
       }
     },
     {
@@ -892,18 +892,9 @@
       }
     },
     {
-      "name": "Types, Properties, Keys and Values",
+      "name": "Properties, Keys and Values, Symbols, Literals and CSS Values",
       "scope": [
-        "entity.name.type",
-        "entity.name.namespace",
-        "entity.other.attribute",
-        "entity.name.scope-resolution",
-        "entity.name.class",
-        "support.class",
-        "support.type",
         "constant.language.symbol.ruby", // ruby symbol
-        "variable.css", // css variable
-        "variable.argument.css", // css variable
         "entity.name.tag.yaml", // yaml key
         "support.type.property-name.json", // json key
         "markup.inline.raw", // markdown raw
@@ -911,16 +902,7 @@
         "punctuation.definition.list.begin.markdown", // markdown list bullet point
         "markup.table.header",
         "markup.fenced_code.block", // markdown code
-        "constant.other.option" // bash option
-      ],
-      "settings": {
-        "foreground": "#ff3675",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Symbols, Literals and CSS Values",
-      "scope": [
+        "constant.other.option", // bash option
         "support.constant.color.w3c-standard-color-name.css", // css value
         "support.constant.property-value.css",
         "support.constant.font-name.css",
@@ -932,15 +914,33 @@
         "variable.parameter.keyframe-list.css"
       ],
       "settings": {
-        "foreground": "#ff3675"
+        "foreground": "#ff3675",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Alternative",
+      "name": "Class and Types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.namespace",
+        "entity.other.attribute",
+        "entity.name.scope-resolution",
+        "entity.name.class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#11cfa9"
+      }
+    },
+    {
+      "name": "Alternative Symbols and Values",
       "scope": [
         "constant.language.symbol.hashkey.ruby", // ruby hashkey
         "entity.name.type.module.ruby",
         "variable.other.readwrite.instance.ruby",
+        "variable.css", // css variable
+        "variable.argument.css", // css variable as argument
         "markup.heading" // markdown header
       ],
       "settings": {
