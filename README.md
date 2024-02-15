@@ -4,6 +4,14 @@ A clean and minimal dark theme for Visual Studio Code.
 
 ## Changelog
 
+## 0.0.7
+
+Refined syntax colors.
+
+## 0.0.6
+
+Refined colors for editor.
+
 ## 0.0.5
 
 Change constant colors.
