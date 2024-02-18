@@ -4,9 +4,13 @@ A clean and minimal dark theme for Visual Studio Code.
 
 ## Changelog
 
+## 0.0.10
+
+Change git merge conflict colors.
+
 ## 0.0.9
 
-Change primary color.
+Change primary color
 
 ## 0.0.8
 
