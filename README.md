@@ -19,6 +19,12 @@ VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=kikogon
 
 ## Changelog
 
+### 0.0.11
+
+- Change JS this syntax color.
+- Change CSS property name color.
+- Change support built-in syntax color.
+
 ### 0.0.10
 
 - Change git merge conflict colors.

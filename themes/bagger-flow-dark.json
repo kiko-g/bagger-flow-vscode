@@ -912,7 +912,8 @@
         "constant.other.color.rgb-value.css",
         "constant.other.rgb-value.css",
         "support.constant.color.css",
-        "variable.parameter.keyframe-list.css"
+        "variable.parameter.keyframe-list.css",
+        "variable.language.this.js", // js this
       ],
       "settings": {
         "foreground": "#ff3675",
@@ -928,7 +929,8 @@
         "entity.name.scope-resolution",
         "entity.name.class",
         "support.class",
-        "support.type"
+        "support.type",
+        "support.variable.js"
       ],
       "settings": {
         "foreground": "#11cfa9"
@@ -961,6 +963,13 @@
       }
     },
     {
+      "name": "CSS Vendored Property Name",
+      "scope": ["support.type.vendored.property-name.css"],
+      "settings": {
+        "foreground": "#bbddec"
+      }
+    },
+    {
       "name": "Liquid Values",
       "scope": [
         "support.class.object-value.liquid",
@@ -972,6 +981,13 @@
       "settings": {
         "foreground": "#eeffff",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "Support Built-in Property",
+      "scope": ["support.variable.property"],
+      "settings": {
+        "foreground": "#ff8888"
       }
     },
     {
