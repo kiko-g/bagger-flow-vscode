@@ -9,6 +9,7 @@
     "type": "git",
     "url": "https://github.com/kiko-g/bagger-flow-vscode"
   },
+  "homepage": "https://www.kikogoncalves.com",
   "scripts": {
     "publish": "vsce publish"
   },

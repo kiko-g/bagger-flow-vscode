@@ -126,19 +126,19 @@
     "dropdown.foreground": "#c9d1d9",
     "dropdown.listBackground": "#14171c",
     "editor.background": "#161b23",
-    "editor.findMatchBackground": "#ff006f80", // find match current color
-    "editor.findMatchHighlightBackground": "#ff006f30", // find match other color
+    "editor.findMatchBackground": "#ff7300a0", // find match current color
+    "editor.findMatchHighlightBackground": "#ff4a9560", // find match other color
     "editor.findMatchBorder": "#ff006f00", // find match current border
     "editor.findMatchHighlightBorder": "#ffff0000", // find match other border
     "editor.findRangeHighlightBackground": "#14b8a619",
     "editor.foldBackground": "#ff006f20",
     "editor.foreground": "#cccccc",
     "editor.hoverHighlightBackground": "#15305120",
-    "editor.inactiveSelectionBackground": "#88ffff10", // selected text unfocused
-    "editor.lineHighlightBackground": "#14b8a619",
+    "editor.inactiveSelectionBackground": "#bbccff20", // selected text unfocused
+    "editor.lineHighlightBackground": "#b9f7ff19",
     "editor.lineHighlightBorder": "#30363d55",
     "editor.rangeHighlightBackground": "#14b8a619",
-    "editor.selectionBackground": "#14b8a630", // selected text
+    "editor.selectionBackground": "#b9f7ff30", // selected text
     "editor.selectionForeground": "#ffffff",
     "editor.selectionHighlightBackground": "#15305120",
     "editor.symbolHighlightBackground": "#15305120",
