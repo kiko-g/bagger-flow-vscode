@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.13
+
+- Change git merge colors.
+
 ## 0.0.12
 
 - Change primary color.
