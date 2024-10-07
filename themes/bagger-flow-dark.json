@@ -913,7 +913,6 @@
         "constant.other.rgb-value.css",
         "support.constant.color.css",
         "variable.parameter.keyframe-list.css",
-        "variable.language.this.js", // js this
       ],
       "settings": {
         "foreground": "#ff3675",

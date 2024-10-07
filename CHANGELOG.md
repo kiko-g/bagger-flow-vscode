@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.14
+
+- Change js this color.
+
 ## 0.0.13
 
 - Change git merge colors.
