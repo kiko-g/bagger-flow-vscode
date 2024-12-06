@@ -2,15 +2,15 @@
 
 A clean and minimal dark theme for Visual Studio Code with carefully tailored syntax highlight. Visit my website [kikogoncalves.com](https://kikogoncalves.com) to see more of my work.
 
+## Screenshots
+
+![Bagger Flow v0.0.14](./screenshots/bagger-flow-v0.014-a.png)
+
+![Bagger Flow v0.0.10](./screenshots/bagger-flow-dark_b.png)
+
 ## Installation
 
 VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=kikogoncalves.bagger-flow
-
-## Screenshots
-
-### Bagger Flow Dark
-
-![Bagger Flow Dark](./screenshots/bagger-flow-dark_b.png)
 
 ## Inspiration
 
@@ -20,4 +20,3 @@ VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=kikogon
 ## Changelog
 
 Read the [changelog](./CHANGELOG.md) for more information on the version history.
-
