@@ -1,8 +1,8 @@
 {
   "name": "bagger-flow",
   "displayName": "Bagger Flow Theme",
-  "description": "Modern, colorful and slick theme for Visual Studio Code.",
-  "version": "0.0.14",
+  "description": "Modern, colorful and slick dark theme for Visual Studio Code and compatible editors.",
+  "version": "0.0.15",
   "publisher": "kikogoncalves",
   "author": "Francisco Gonçalves",
   "repository": {
@@ -12,7 +12,9 @@
   "homepage": "https://www.kikogoncalves.com",
   "scripts": {
     "build": "vsce package",
-    "publish": "vsce publish"
+    "publish:vscode": "vsce publish -p $VSCE_PAT",
+    "publish:ovsx": "ovsx publish bagger-flow-$npm_package_version.vsix -p $OVSX_PAT",
+    "publish": "npm run build && npm run publish:vscode && npm run publish:ovsx"
   },
   "engines": {
     "vscode": "^1.14.0"
@@ -39,8 +41,8 @@
       }
     ]
   },
-  "dependencies": {
-    "global": "^4.4.0",
-    "vsce": "^2.9.3"
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1",
+    "ovsx": "^0.10.10"
   }
 }
