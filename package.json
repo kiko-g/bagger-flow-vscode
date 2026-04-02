@@ -11,7 +11,8 @@
   },
   "homepage": "https://www.kikogoncalves.com",
   "scripts": {
-    "build": "vsce package",
+    "generate": "node scripts/generate-themes.js",
+    "build": "npm run generate && vsce package",
     "publish:vscode": "vsce publish -p $VSCE_PAT",
     "publish:ovsx": "ovsx publish bagger-flow-$npm_package_version.vsix -p $OVSX_PAT",
     "publish": "npm run build && npm run publish:vscode && npm run publish:ovsx"
@@ -35,9 +36,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Bagger Flow Dark",
+        "label": "Bagger Flow Dark Navy (default)",
         "uiTheme": "vs-dark",
-        "path": "themes/bagger-flow-dark.json"
+        "path": "themes/bagger-flow-dark-navy.json"
+      },
+      {
+        "label": "Bagger Flow Dark Zinc",
+        "uiTheme": "vs-dark",
+        "path": "themes/bagger-flow-dark-zinc.json"
+      },
+      {
+        "label": "Bagger Flow Dark Teal",
+        "uiTheme": "vs-dark",
+        "path": "themes/bagger-flow-dark-teal.json"
       }
     ]
   },
