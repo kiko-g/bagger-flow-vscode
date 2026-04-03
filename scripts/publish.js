@@ -5,6 +5,16 @@ const path = require("path")
 const { execSync } = require("child_process")
 
 const PKG_PATH = path.join(__dirname, "../package.json")
+const ROOT = path.join(__dirname, "..")
+
+function hasUncommittedChanges(file) {
+  try {
+    const status = execSync(`git status --porcelain "${file}"`, { cwd: ROOT, encoding: "utf-8" }).trim()
+    return status.length > 0
+  } catch {
+    return false
+  }
+}
 
 function parseVersion(str) {
   const parts = str.split(".").map(Number)
@@ -43,6 +53,20 @@ function main() {
       `Version ${newVersion} is not higher than current ${currentVersion}. Aborting.`
     )
     process.exit(1)
+  }
+
+  // Preflight: ensure README and CHANGELOG were updated
+  const readmeDirty = hasUncommittedChanges("README.md")
+  const changelogDirty = hasUncommittedChanges("CHANGELOG.md")
+  const missing = []
+  if (!readmeDirty) missing.push("README.md")
+  if (!changelogDirty) missing.push("CHANGELOG.md")
+
+  if (missing.length > 0) {
+    console.error(`\nPreflight failed — the following files have no uncommitted changes:`)
+    missing.forEach((f) => console.error(`  - ${f}`))
+    console.error(`\nUpdate them before publishing. Use --force to skip this check.`)
+    if (!process.argv.includes("--force")) process.exit(1)
   }
 
   console.log(`Bumping version: ${currentVersion} -> ${newVersion}`)

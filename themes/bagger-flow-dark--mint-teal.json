@@ -125,7 +125,7 @@
     "dropdown.border": "#1a2c29",
     "dropdown.foreground": "#c9d1d9",
     "dropdown.listBackground": "#0f1716",
-    "editor.background": "#111d1b",
+    "editor.background": "#111e1c",
     "editor.findMatchBackground": "#ff7300a0", // find match current color
     "editor.findMatchHighlightBackground": "#ff4a9560", // find match other color
     "editor.findMatchBorder": "#ff006f00", // find match current border
@@ -181,7 +181,7 @@
     "editorGroupHeader.tabsBackground": "#0f1716",
     "editorGroupHeader.tabsBorder": "#44668833", // tabs section bottom border
     "editorGutter.addedBackground": "#196c2e",
-    "editorGutter.background": "#111d1b",
+    "editorGutter.background": "#111e1c",
     "editorGutter.deletedBackground": "#b62324",
     "editorGutter.foldingControlForeground": "#8b949e",
     "editorGutter.modifiedBackground": "#9e6a03",
@@ -302,8 +302,8 @@
     //"editorOverviewRuler.commentForeground": "#15242e",
     //"editorOverviewRuler.commentUnresolvedForeground": "#15242e",
     //"editorOverviewRuler.wordHighlightTextForeground": "#79c0ff4c",
-    //"editorPane.background": "#111d1b",
-    //"editorStickyScroll.background": "#111d1b",
+    //"editorPane.background": "#111e1c",
+    //"editorStickyScroll.background": "#111e1c",
     //"editorStickyScrollHover.background": "#2a2d2e",
     //"editorSuggestWidget.background": "#101b19",
     //"editorSuggestWidget.border": "#2a3f3c55",
@@ -453,7 +453,7 @@
     //"notebook.cellInsertionIndicator": "#0d9488",
     //"notebook.cellStatusBarItemHoverBackground": "#ffffff26",
     //"notebook.cellToolbarSeparator": "#80808059",
-    //"notebook.editorBackground": "#111d1b",
+    //"notebook.editorBackground": "#111e1c",
     //"notebook.focusedCellBorder": "#0d9488",
     //"notebook.focusedEditorBorder": "#0d9488",
     //"notebook.inactiveFocusedCellBorder": "#0d948819",

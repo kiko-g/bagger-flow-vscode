@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.2.0
+
+- Rewrite README with variant descriptions and updated content.
+- Add preflight checks to publish script (README + CHANGELOG must be updated).
+- Add `--force` flag to bypass preflight checks.
+
+## 0.1.2
+
+- Rename theme variants to Navy Blue, Charcoal Gray, Cherry Rose, and Mint Teal.
+- Default theme is now simply "Bagger Flow" for cleaner sorting in the theme picker.
+- Add `#` prefix to hex color values in the generator for inline color previews.
+
+## 0.1.1
+
+- Add Charcoal Gray, Cherry Rose, and Mint Teal dark theme variants.
+- Introduce programmatic theme generation from a single base palette.
+
+## 0.1.0
+
+- Generalize the base theme into a reusable classic palette.
+- Add theme generation script (`scripts/generate-themes.js`).
+
 ## 0.0.14
 
 - Change js this color.
