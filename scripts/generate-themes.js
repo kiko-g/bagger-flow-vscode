@@ -2,7 +2,9 @@ const fs = require("fs")
 const path = require("path")
 
 const THEMES_DIR = path.join(__dirname, "../themes")
-const BASE_THEME = path.join(THEMES_DIR, "bagger-flow-dark-navy.json")
+/** Canonical default palette — edit this file, then run `npm run generate`. */
+const BASE_THEME = path.join(THEMES_DIR, "bagger-flow-dark-classic.json")
+const NAVY_MIRROR = path.join(THEMES_DIR, "bagger-flow-dark-navy.json")
 
 const BASE_COLORS = {
   accent: "1479b8",
@@ -20,9 +22,9 @@ const BASE_COLORS = {
 }
 
 const VARIANTS = {
-  zinc: {
-    label: "Bagger Flow Dark Zinc",
-    output: "bagger-flow-dark-zinc.json",
+  gray: {
+    label: "Bagger Flow Dark Gray",
+    output: "bagger-flow-dark-gray.json",
     colors: {
       accent: "71717a",
       accentAlt: "a1a1aa",
@@ -36,6 +38,24 @@ const VARIANTS = {
       statusBg: "09090b",
       widgetBg: "232326",
       emptyBg: "202023",
+    },
+  },
+  cherry: {
+    label: "Bagger Flow Dark Cherry",
+    output: "bagger-flow-dark-cherry.json",
+    colors: {
+      accent: "e11d48",
+      accentAlt: "f43f5e",
+      chromeBg: "1a0c10",
+      editorBg: "1e1014",
+      miscBg: "1c0e12",
+      border: "4c2530",
+      secondaryBg: "2a151c",
+      highlight: "3d1822",
+      deepestBg: "12090c",
+      statusBg: "0a0508",
+      widgetBg: "28141a",
+      emptyBg: "221216",
     },
   },
   teal: {
@@ -60,6 +80,8 @@ const VARIANTS = {
 
 function generate() {
   const baseContent = fs.readFileSync(BASE_THEME, "utf-8")
+  fs.writeFileSync(NAVY_MIRROR, baseContent, "utf-8")
+  console.log("Synced bagger-flow-dark-navy.json from classic (default marketplace path)")
 
   for (const [variantKey, variant] of Object.entries(VARIANTS)) {
     let themed = baseContent
