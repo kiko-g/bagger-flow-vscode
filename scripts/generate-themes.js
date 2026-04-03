@@ -19,6 +19,10 @@ const BASE_COLORS = {
   statusBg: "101016",
   widgetBg: "1f242b",
   emptyBg: "242730",
+  /** Scrollbar thumb tint in #RRGGBB14 / #RRGGBB24 — was a fixed cool blue-gray */
+  scrollbarMuted: "bec7da",
+  /** Minimap / overview-ruler gutter strip (solid) */
+  overviewRulerBg: "12171e",
 }
 
 const VARIANTS = {
@@ -38,6 +42,8 @@ const VARIANTS = {
       statusBg: "09090b",
       widgetBg: "232326",
       emptyBg: "202023",
+      scrollbarMuted: "a1a1aa",
+      overviewRulerBg: "1a1a1d",
     },
   },
   cherry: {
@@ -56,6 +62,8 @@ const VARIANTS = {
       statusBg: "0a0508",
       widgetBg: "28141a",
       emptyBg: "221216",
+      scrollbarMuted: "d4a8b8",
+      overviewRulerBg: "1c0e12",
     },
   },
   teal: {
@@ -74,12 +82,37 @@ const VARIANTS = {
       statusBg: "080e0d",
       widgetBg: "162623",
       emptyBg: "132220",
+      scrollbarMuted: "7dd3c8",
+      overviewRulerBg: "101b19",
     },
   },
 }
 
+/** In VS Code, #RRGGBBAA in syntax scopes makes text nearly invisible — UI *.foreground may still use alpha. */
+const SYNTAX_MARKERS = ['"tokenColors":', '"semanticTokenColors":']
+const FOREGROUND_8_HEX = /"foreground"\s*:\s*"#([0-9a-fA-F]{8})"/g
+
+function assertOpaqueSyntaxForegrounds(fileLabel, content) {
+  const bad = []
+  for (const marker of SYNTAX_MARKERS) {
+    const i = content.indexOf(marker)
+    if (i === -1) continue
+    const tail = content.slice(i)
+    for (const m of tail.matchAll(FOREGROUND_8_HEX)) {
+      bad.push(m[0])
+    }
+  }
+  if (bad.length > 0) {
+    throw new Error(
+      `${fileLabel}: syntax highlighting must not use 8-digit hex foregrounds (alpha). Found:\n  ${bad.join("\n  ")}`
+    )
+  }
+}
+
 function generate() {
   const baseContent = fs.readFileSync(BASE_THEME, "utf-8")
+  assertOpaqueSyntaxForegrounds(path.basename(BASE_THEME), baseContent)
+
   fs.writeFileSync(NAVY_MIRROR, baseContent, "utf-8")
   console.log("Synced bagger-flow-dark-navy.json from classic (default marketplace path)")
 
@@ -91,6 +124,8 @@ function generate() {
       const to = variant.colors[colorKey]
       themed = themed.replaceAll(from, to)
     }
+
+    assertOpaqueSyntaxForegrounds(variant.output, themed)
 
     const outPath = path.join(THEMES_DIR, variant.output)
     fs.writeFileSync(outPath, themed, "utf-8")
