@@ -7,8 +7,8 @@ const BASE_THEME = path.join(THEMES_DIR, "bagger-flow-dark-classic.json")
 const NAVY_MIRROR = path.join(THEMES_DIR, "bagger-flow-dark--navy-blue.json")
 
 const BASE_COLORS = {
-  accent: "#145bb8ff",
-  accentAlt: "#307bc1ff",
+  accent: "#1479b8",
+  accentAlt: "#247bce",
   chromeBg: "#14171c",
   editorBg: "#161b23",
   miscBg: "#161b22",

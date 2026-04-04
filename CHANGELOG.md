@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- Fix base colors
+
 ## 0.3.0
 
 - Add Petrol Blue dark theme variant (deep gunmetal with electric cyan accents).

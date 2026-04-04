@@ -2,6 +2,8 @@
 
 A dark theme for VS Code — clean, colorful, and easy on the eyes. Built with careful syntax highlighting for the languages I use every day.
 
+Tailored, slick, modern, homey, with great variants.
+
 ## Variants
 
 Bagger Flow ships with five dark variants, all generated from a single base theme:
