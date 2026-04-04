@@ -22,9 +22,12 @@ HTML, CSS, SCSS, JavaScript, TypeScript, JSX/TSX, Ruby, and Liquid.
 
 ## Screenshots
 
-![Bagger Flow Dark](./screenshots/bagger-flow-v0.014-a.png)
-
-![Bagger Flow Dark Alt](./screenshots/bagger-flow-dark_b.png)
+| Variant | Preview |
+|---------|---------|
+| Default (Navy) | ![Default](./screenshots/default-0.3.1.png) |
+| Cherry Rose | ![Cherry Rose](./screenshots/cherry-rose-0.3.1.png) |
+| Petrol Blue | ![Petrol Blue](./screenshots/petrol-blue-0.3.1.png) |
+| Mint Teal | ![Mint Teal](./screenshots/teal-mint-0.3.1.png) |
 
 ## Installation
 

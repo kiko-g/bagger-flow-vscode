@@ -30,8 +30,8 @@ const VARIANTS = {
     label: "Bagger Flow Dark -- Charcoal Gray",
     output: "bagger-flow-dark--charcoal-gray.json",
     colors: {
-      accent: "#313a4eff",
-      accentAlt: "#5f687cff",
+      accent: "#313a4e",
+      accentAlt: "#5f687c",
       chromeBg: "#18181b",
       editorBg: "#1c1c1f",
       miscBg: "#1a1a1d",
@@ -70,7 +70,7 @@ const VARIANTS = {
     label: "Bagger Flow Dark -- Mint Teal",
     output: "bagger-flow-dark--mint-teal.json",
     colors: {
-      accent: "#0a8b71ff",
+      accent: "#0a8b71",
       accentAlt: "#14b8a6",
       chromeBg: "#0e1615",
       editorBg: "#101b19",
@@ -90,8 +90,8 @@ const VARIANTS = {
     label: "Bagger Flow Dark -- Petrol Blue",
     output: "bagger-flow-dark--petrol-blue.json",
     colors: {
-      accent: "#0056b9ff",
-      accentAlt: "#8842b7ff",
+      accent: "#0056b9",
+      accentAlt: "#8842b7",
       chromeBg: "#0a0e11",
       editorBg: "#0c1115",
       miscBg: "#0b1014",
