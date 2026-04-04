@@ -4,12 +4,13 @@ A dark theme for VS Code — clean, colorful, and easy on the eyes. Built with c
 
 ## Variants
 
-Bagger Flow ships with four dark variants, all generated from a single base theme:
+Bagger Flow ships with five dark variants, all generated from a single base theme:
 
-- **Bagger Flow** (Navy) — the default. Deep navy tones with vibrant syntax colors.
+- **Bagger Flow** the default. Deep navy tones with vibrant syntax colors.
 - **Charcoal Gray** — a neutral, zinc-toned take for when navy feels like too much.
 - **Cherry Rose** — warm reds and rose accents for a cozier vibe.
 - **Mint Teal** — cool teal tones if you lean toward greens and cyans.
+- **Petrol Blue** — near-black gunmetal with electric blue accents.
 
 Pick whichever fits your mood — they all share the same syntax logic under the hood.
 

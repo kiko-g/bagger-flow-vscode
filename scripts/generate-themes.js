@@ -7,8 +7,8 @@ const BASE_THEME = path.join(THEMES_DIR, "bagger-flow-dark-classic.json")
 const NAVY_MIRROR = path.join(THEMES_DIR, "bagger-flow-dark--navy-blue.json")
 
 const BASE_COLORS = {
-  accent: "#1479b8",
-  accentAlt: "#247bce",
+  accent: "#145bb8ff",
+  accentAlt: "#307bc1ff",
   chromeBg: "#14171c",
   editorBg: "#161b23",
   miscBg: "#161b22",
@@ -26,12 +26,12 @@ const BASE_COLORS = {
 }
 
 const VARIANTS = {
-  gray: {
+  "gray-slate": {
     label: "Bagger Flow Dark -- Charcoal Gray",
     output: "bagger-flow-dark--charcoal-gray.json",
     colors: {
-      accent: "#71717a",
-      accentAlt: "#a1a1aa",
+      accent: "#313a4eff",
+      accentAlt: "#5f687cff",
       chromeBg: "#18181b",
       editorBg: "#1c1c1f",
       miscBg: "#1a1a1d",
@@ -46,7 +46,7 @@ const VARIANTS = {
       overviewRulerBg: "#1a1a1d",
     },
   },
-  cherry: {
+  "cherry-rose": {
     label: "Bagger Flow Dark -- Cherry Rose",
     output: "bagger-flow-dark--cherry-rose.json",
     colors: {
@@ -66,14 +66,14 @@ const VARIANTS = {
       overviewRulerBg: "#1c0e12",
     },
   },
-  teal: {
+  "teal-mint": {
     label: "Bagger Flow Dark -- Mint Teal",
     output: "bagger-flow-dark--mint-teal.json",
     colors: {
-      accent: "#0d9488",
+      accent: "#0a8b71ff",
       accentAlt: "#14b8a6",
-      chromeBg: "#0f1716",
-      editorBg: "#111e1c",
+      chromeBg: "#0e1615",
+      editorBg: "#101b19",
       miscBg: "#101b19",
       border: "#2a3f3c",
       secondaryBg: "#1a2c29",
@@ -84,6 +84,26 @@ const VARIANTS = {
       emptyBg: "#132220",
       scrollbarMuted: "#7dd3c8",
       overviewRulerBg: "#101b19",
+    },
+  },
+  "petrol-blue": {
+    label: "Bagger Flow Dark -- Petrol Blue",
+    output: "bagger-flow-dark--petrol-blue.json",
+    colors: {
+      accent: "#0056b9ff",
+      accentAlt: "#8842b7ff",
+      chromeBg: "#0a0e11",
+      editorBg: "#0c1115",
+      miscBg: "#0b1014",
+      border: "#1c3040",
+      secondaryBg: "#111a22",
+      highlight: "#0c2a3d",
+      deepestBg: "#07090c",
+      statusBg: "#050709",
+      widgetBg: "#10181f",
+      emptyBg: "#0e151b",
+      scrollbarMuted: "#67b8d6",
+      overviewRulerBg: "#0b1014",
     },
   },
 }
@@ -104,7 +124,7 @@ function assertOpaqueSyntaxForegrounds(fileLabel, content) {
   }
   if (bad.length > 0) {
     throw new Error(
-      `${fileLabel}: syntax highlighting must not use 8-digit hex foregrounds (alpha). Found:\n  ${bad.join("\n  ")}`
+      `${fileLabel}: syntax highlighting must not use 8-digit hex foregrounds (alpha). Found:\n  ${bad.join("\n  ")}`,
     )
   }
 }
