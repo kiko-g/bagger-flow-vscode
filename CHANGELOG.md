@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.3
+
+Rename petrol theme(s) to lights out.
+
 ## 0.3.2
 
 - Fix accent color bug

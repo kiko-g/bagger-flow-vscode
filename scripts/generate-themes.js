@@ -19,10 +19,8 @@ const BASE_COLORS = {
   statusBg: "#101016",
   widgetBg: "#1f242b",
   emptyBg: "#242730",
-  /** Scrollbar thumb tint in #RRGGBB14 / #RRGGBB24 — was a fixed cool blue-gray */
-  scrollbarMuted: "#bec7da",
-  /** Minimap / overview-ruler gutter strip (solid) */
-  overviewRulerBg: "#12171e",
+  scrollbarMuted: "#bec7da" /** Scrollbar thumb tint in #RRGGBB14 / #RRGGBB24 */,
+  overviewRulerBg: "#12171e" /** Minimap / overview-ruler gutter strip (solid) */,
 }
 
 const VARIANTS = {
@@ -86,12 +84,12 @@ const VARIANTS = {
       overviewRulerBg: "#101b19",
     },
   },
-  "petrol-blue": {
-    label: "Bagger Flow Dark -- Petrol Blue",
-    output: "bagger-flow-dark--petrol-blue.json",
+  "petrol-neon": {
+    label: "Bagger Flow Dark -- Petrol Neon",
+    output: "bagger-flow-dark--petrol-neon.json",
     colors: {
-      accent: "#0056b9",
-      accentAlt: "#8842b7",
+      accent: "#5d42b7",
+      accentAlt: "#5c4b93",
       chromeBg: "#0a0e11",
       editorBg: "#0c1115",
       miscBg: "#0b1014",
