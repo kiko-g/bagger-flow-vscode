@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.0
+
+Fix `ovsx` publishing bug.
+
+## 0.3.5
+
+Fix README showcase
+
 ## 0.3.4
 
 Add Lights Out Violet theme.

@@ -49,9 +49,7 @@ function main() {
   const currentParts = parseVersion(currentVersion)
 
   if (!isHigher(newParts, currentParts)) {
-    console.error(
-      `Version ${newVersion} is not higher than current ${currentVersion}. Aborting.`
-    )
+    console.error(`Version ${newVersion} is not higher than current ${currentVersion}. Aborting.`)
     process.exit(1)
   }
 
@@ -84,7 +82,11 @@ function main() {
   execSync(`vsce publish -p $VSCE_PAT`, { stdio: "inherit" })
 
   console.log(`Publishing ${vsixFile} to Open VSX...`)
-  execSync(`ovsx publish ${vsixFile} -p $OVSX_PAT`, { stdio: "inherit" })
+  try {
+    execSync(`ovsx publish ${vsixFile} -p $OVSX_PAT`, { stdio: "inherit" })
+  } catch (err) {
+    console.warn(`\n⚠️  Open VSX publish failed (VS Code Marketplace succeeded). Error:\n  ${err.message}`)
+  }
 
   console.log(`\nSuccessfully published v${newVersion}`)
 }
