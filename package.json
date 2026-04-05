@@ -2,7 +2,7 @@
   "name": "bagger-flow",
   "displayName": "Bagger Flow Theme",
   "description": "Modern, colorful and slick dark theme for Visual Studio Code and compatible editors.",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "publisher": "kikogoncalves",
   "author": "Francisco Gonçalves",
   "repository": {
@@ -41,24 +41,29 @@
         "path": "themes/bagger-flow-dark--navy-blue.json"
       },
       {
-        "label": "Bagger Flow Dark -- Charcoal Gray",
+        "label": "Bagger Flow Dark: Charcoal Gray",
         "uiTheme": "vs-dark",
         "path": "themes/bagger-flow-dark--charcoal-gray.json"
       },
       {
-        "label": "Bagger Flow Dark -- Cherry Rose",
+        "label": "Bagger Flow Dark: Cherry Rose",
         "uiTheme": "vs-dark",
         "path": "themes/bagger-flow-dark--cherry-rose.json"
       },
       {
-        "label": "Bagger Flow Dark -- Mint Teal",
+        "label": "Bagger Flow Dark: Mint Teal",
         "uiTheme": "vs-dark",
         "path": "themes/bagger-flow-dark--mint-teal.json"
       },
       {
-        "label": "Bagger Flow Dark -- Petrol Blue",
+        "label": "Bagger Flow Dark: Lights Out Blue",
         "uiTheme": "vs-dark",
-        "path": "themes/bagger-flow-dark--petrol-blue.json"
+        "path": "themes/bagger-flow-dark--lights-out-blue.json"
+      },
+      {
+        "label": "Bagger Flow Dark: Lights Out Violet",
+        "uiTheme": "vs-dark",
+        "path": "themes/bagger-flow-dark--lights-out-violet.json"
       }
     ]
   },

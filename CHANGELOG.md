@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.4
+
+Add Lights Out Violet theme.
+
 ## 0.3.3
 
 Rename petrol theme(s) to lights out.

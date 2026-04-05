@@ -25,14 +25,14 @@ const BASE_COLORS = {
 
 const VARIANTS = {
   "gray-slate": {
-    label: "Bagger Flow Dark -- Charcoal Gray",
+    label: "Bagger Flow Dark: Charcoal Gray",
     output: "bagger-flow-dark--charcoal-gray.json",
     colors: {
-      accent: "#313a4e",
-      accentAlt: "#5f687c",
-      chromeBg: "#18181b",
-      editorBg: "#1c1c1f",
-      miscBg: "#1a1a1d",
+      accent: "#1c253a",
+      accentAlt: "#23304e",
+      chromeBg: "#18181c",
+      editorBg: "#1c1d21",
+      miscBg: "#1a1a1e",
       border: "#3f3f46",
       secondaryBg: "#27272a",
       highlight: "#2c2c31",
@@ -45,7 +45,7 @@ const VARIANTS = {
     },
   },
   "cherry-rose": {
-    label: "Bagger Flow Dark -- Cherry Rose",
+    label: "Bagger Flow Dark: Cherry Rose",
     output: "bagger-flow-dark--cherry-rose.json",
     colors: {
       accent: "#e11d48",
@@ -65,12 +65,12 @@ const VARIANTS = {
     },
   },
   "teal-mint": {
-    label: "Bagger Flow Dark -- Mint Teal",
+    label: "Bagger Flow Dark: Mint Teal",
     output: "bagger-flow-dark--mint-teal.json",
     colors: {
       accent: "#0a8b71",
       accentAlt: "#14b8a6",
-      chromeBg: "#0e1615",
+      chromeBg: "#0e1514",
       editorBg: "#101b19",
       miscBg: "#101b19",
       border: "#2a3f3c",
@@ -84,12 +84,32 @@ const VARIANTS = {
       overviewRulerBg: "#101b19",
     },
   },
-  "petrol-neon": {
-    label: "Bagger Flow Dark -- Petrol Neon",
-    output: "bagger-flow-dark--petrol-neon.json",
+  "lights-out-blue": {
+    label: "Bagger Flow Dark: Lights Out Blue",
+    output: "bagger-flow-dark--lights-out-blue.json",
     colors: {
-      accent: "#5d42b7",
-      accentAlt: "#5c4b93",
+      accent: "#0056b9",
+      accentAlt: "#2860a0",
+      chromeBg: "#0a0e11",
+      editorBg: "#0c1115",
+      miscBg: "#0b1014",
+      border: "#1c3040",
+      secondaryBg: "#111a22",
+      highlight: "#0c2a3d",
+      deepestBg: "#07090c",
+      statusBg: "#050709",
+      widgetBg: "#10181f",
+      emptyBg: "#0e151b",
+      scrollbarMuted: "#67b8d6",
+      overviewRulerBg: "#0b1014",
+    },
+  },
+  "lights-out-violet": {
+    label: "Bagger Flow Dark: Lights Out Violet",
+    output: "bagger-flow-dark--lights-out-violet.json",
+    colors: {
+      accent: "#862d9e",
+      accentAlt: "#6b247e",
       chromeBg: "#0a0e11",
       editorBg: "#0c1115",
       miscBg: "#0b1014",

@@ -13,6 +13,7 @@ Bagger Flow ships with five dark variants, all generated from a single base them
 - **Cherry Rose** — warm reds and rose accents for a cozier vibe.
 - **Mint Teal** — cool teal tones if you lean toward greens and cyans.
 - **Lights Out Blue** — near-black gunmetal with electric blue accents.
+- **Lights Out Violet** — near-black gunmetal with electric violet accents.
 
 Pick whichever fits your mood — they all share the same syntax logic under the hood.
 
