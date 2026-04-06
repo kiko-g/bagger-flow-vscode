@@ -2,7 +2,7 @@
   "name": "bagger-flow",
   "displayName": "Bagger Flow Theme",
   "description": "Modern, colorful and slick dark theme for Visual Studio Code and compatible editors.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "publisher": "kikogoncalves",
   "author": "Francisco Gonçalves",
   "repository": {
@@ -41,9 +41,9 @@
         "path": "themes/bagger-flow-dark--navy-blue.json"
       },
       {
-        "label": "Bagger Flow Dark: Charcoal Gray",
+        "label": "Bagger Flow Dark: Weaponized 115",
         "uiTheme": "vs-dark",
-        "path": "themes/bagger-flow-dark--charcoal-gray.json"
+        "path": "themes/bagger-flow-dark--weaponized-115.json"
       },
       {
         "label": "Bagger Flow Dark: Cherry Rose",

@@ -24,18 +24,18 @@ const BASE_COLORS = {
 }
 
 const VARIANTS = {
-  "gray-slate": {
-    label: "Bagger Flow Dark: Charcoal Gray",
-    output: "bagger-flow-dark--charcoal-gray.json",
+  "weaponized-115": {
+    label: "Bagger Flow Dark: Weaponized 115",
+    output: "bagger-flow-dark--weaponized-115.json",
     colors: {
-      accent: "#1c253a",
-      accentAlt: "#23304e",
+      accent: "#00c853",
+      accentAlt: "#00e676",
       chromeBg: "#18181c",
       editorBg: "#1c1d21",
       miscBg: "#1a1a1e",
       border: "#3f3f46",
       secondaryBg: "#27272a",
-      highlight: "#2c2c31",
+      highlight: "#0d2e1a",
       deepestBg: "#111113",
       statusBg: "#09090b",
       widgetBg: "#232326",

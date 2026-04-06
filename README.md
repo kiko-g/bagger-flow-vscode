@@ -13,10 +13,10 @@ Bagger Flow ships with five dark variants, all generated from a single base them
 | Lights Out Blue |                                                             |
 | Cherry Rose     | ![Cherry Rose](./screenshots/cherry-rose-0.3.1.png)         |
 | Mint Teal       | ![Mint Teal](./screenshots/teal-mint-0.3.1.png)             |
-| Charcoal Gray   |                                                             |
+| Weaponized 115  |                                                             |
 
 - **Bagger Flow** the default. Deep navy tones with vibrant syntax colors.
-- **Charcoal Gray**: a neutral, zinc-toned take for when navy feels like too much.
+- **Weaponized 115**: charcoal zinc base with bright emerald green accents.
 - **Cherry Rose**: warm reds and rose accents for a cozier vibe.
 - **Mint Teal**: cool teal tones if you lean toward greens and cyans.
 - **Lights Out Blue**: near-black gunmetal with electric blue accents.

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1
+
+Replace charcoal gray theme with Weaponized 115.
+
 ## 0.4.0
 
 Fix `ovsx` publishing bug.
